@@ -11,10 +11,12 @@ body, html {
     margin-left: 20px;
 }
 #top{
-    height: 20vh;
+    cursor: none;
+    
 }
 #canvas{
-    height: 80%vh;
+    cursor: crosshair;
+    
 }
 /* for tutorial link only */
 .links {

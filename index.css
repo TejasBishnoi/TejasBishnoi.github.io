@@ -3,8 +3,19 @@ body, html {
     padding: 0;
     margin: 0;
    overscroll-behavior: none;
-}
+   margin: 0; height: 100%; 
+   overflow: hidden;
 
+}
+#p{
+    margin-left: 20px;
+}
+#top{
+    height: 20vh;
+}
+#canvas{
+    height: 80%vh;
+}
 /* for tutorial link only */
 .links {
     position: fixed;

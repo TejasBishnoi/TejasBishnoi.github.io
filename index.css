@@ -29,5 +29,7 @@ a img.icon {
     margin: 0 0 -0.1em 0.3em;
 }
 #h1{
+    margin: 20px;
+    text-align: center;
     font-family: 'Satisfy', cursive;
 }

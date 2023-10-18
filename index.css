@@ -9,6 +9,7 @@ body, html {
 .links {
     position: fixed;
     bottom: 10px;
+    right: 10px;
     font-size: 18px;
     font-family: sans-serif;
    background-color: white;

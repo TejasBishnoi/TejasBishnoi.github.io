@@ -62,8 +62,8 @@ function update(t) {
     
     // for intro motion
     if (!mouseMoved) {
-        pointer.x = (.5 + .3 * Math.cos(.002 * t) * (Math.sin(.005 * t))) * window.innerWidth;
-        pointer.y = (.5 + .2 * (Math.cos(.005 * t)) + .1 * Math.cos(.01 * t)) * window.innerHeight;
+        pointer.x = (16 * Math.pow(Math.sin(t), 3) * window.innerWidth;
+        pointer.y = (13 * Math.cos(t) - 5 * Math.cos(2 * t) - 2 * Math.cos(3 * t) - Math.cos(4 * t) * window.innerHeight;
     }
    
     ctx.clearRect(0, 0, canvas.width, canvas.height);
